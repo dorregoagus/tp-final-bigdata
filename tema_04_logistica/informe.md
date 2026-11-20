@@ -5,7 +5,7 @@ Integrantes: Falcón y Dorrego
 
 ## 1. Qué hicimos
 
-Armamos un pipeline que lee el archivo `envios.csv` sin modificarlo y lo carga tal cual en la tabla `raw_envios` (2575 filas, no se perdió ninguna). Después lo validamos con 12 reglas: 1425 registros quedaron en `validos` y 1150 en `rechazados`. Los rechazados los limpiamos con pandas: 921 se pudieron arreglar (`rechazados_limpios`) y 229 no (quedaron en `descartados`). Al unir `validos` con `rechazados_limpios` y sacar los ids repetidos quedaron 2275 filas en `tabla_final`. Todo se ejecuta solo con Airflow todos los días a las 2:00 AM.
+Armamos un pipeline que lee el archivo `envios.csv` sin modificarlo y lo carga tal cual en la tabla `raw_logistica` (2575 filas, no se perdió ninguna). Después lo validamos con 12 reglas: 1425 registros quedaron en `validos` y 1150 en `rechazados`. Los rechazados los limpiamos con pandas: 921 se pudieron arreglar (`rechazados_limpios`) y 229 no (quedaron en `descartados`). Al unir `validos` con `rechazados_limpios` y sacar los ids repetidos quedaron 2275 filas en `tabla_final`. Todo se ejecuta solo con Airflow todos los días a las 2:00 AM.
 
 ## 2. Problemas encontrados y rechazos por regla
 

@@ -1,4 +1,4 @@
-.venv/
+jupyter notebook.venv/
 venv/
 __pycache__/
 *.pyc

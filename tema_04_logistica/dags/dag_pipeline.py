@@ -2,7 +2,6 @@ import sys
 from pathlib import Path
 import pendulum
 
-# Airflow 3 usa airflow.sdk, Airflow 2 usa los imports de abajo
 try:
     from airflow.sdk import DAG
     from airflow.providers.standard.operators.python import PythonOperator
@@ -10,8 +9,6 @@ except ImportError:
     from airflow import DAG
     from airflow.operators.python import PythonOperator
 
-# carpeta del proyecto (la que contiene pipeline.py)
-# CAMBIAR esta linea solo si copias el dag a ~/airflow/dags
 PROYECTO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROYECTO))
 
