@@ -1,0 +1,41 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NSNQ",
+      "code_hash": "6f7e48c2a81a904bfd8cada4519448e6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='NSNQ-0' random-id='1a0495f1-1a30-7320-90f6-d02f16e7d5d9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;regla&#92;&quot;:&#92;&quot;R11 dias_entrega no es entero mayor o igual a 0&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:153},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R12 dias_entrega no coincide con las fechas&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:103},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R2 id_envio duplicado&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:75},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R3 fecha_despacho invalida o nula&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:205},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R4 fecha_entrega invalida o nula&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:206},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R5 fecha_entrega anterior a fecha_despacho&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:103},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R6 peso_kg no es numero mayor a 0&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:103},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R7 costo_envio no es numero mayor a 0&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:126},{&#92;&quot;regla&#92;&quot;:&#92;&quot;R8 transportista no permitido&#92;&quot;,&#92;&quot;cantidad&#92;&quot;:207}]&quot;' data-total-rows='9' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;regla&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;cantidad&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Zkue",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}

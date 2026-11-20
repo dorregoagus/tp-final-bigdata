@@ -1,0 +1,204 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "160cd3b7d21f9009326f5689a4114cd2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "f8723a6dc11299ea7f1762c63684a2f2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "filas, columnas: (2575, 9)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "vblA",
+      "code_hash": "b8782ad383d2ad2953ba223afb12431e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Hxtq-0' random-id='224e67b0-c6c0-0e14-ebf8-4da5fcb0b23e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000001&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-05-08&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-05-11&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Cordoba&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Rosario&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;mercado_envios&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;37.4&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;47925.09&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;3&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000002&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-10-04&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-10-08&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Mendoza&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Tucuman&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;oca&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;31.69&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;29338.77&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;4&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000003&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;21/02/2024&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-02-29&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Tucuman&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Bahia Blanca&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;andreani&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;9.16&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;54225.33&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;8&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000004&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-02-20&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-02-22&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Rosario&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Bahia Blanca&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;oca&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;6.21&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;51496.67&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;2&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000005&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-01-29&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-01-30&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Tucuman&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Cordoba&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;correo_argentino&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;31.25&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;24229.59&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;1&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000006&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-11-17&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-11-23&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Tucuman&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Bahia Blanca&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;correo_argentino&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;15.75&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;35688.87&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;6&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E001212&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-02-06&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-02-10&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Salta&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Rosario&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;oca&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;33.16&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;42408.39&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;4&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000007&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;25/07/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-08-01&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Salta&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Mendoza&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;andreani&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;10.61&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;51257.99&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000008&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-03-10&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-03-14&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Rosario&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Bahia Blanca&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;andreani&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;-34.12&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;51041.74&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;4&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000009&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-07-18&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-07-25&#92;&quot;,&#92;&quot;origen&#92;&quot;:&#92;&quot;Tucuman&#92;&quot;,&#92;&quot;destino&#92;&quot;:&#92;&quot;Salta&#92;&quot;,&#92;&quot;transportista&#92;&quot;:&#92;&quot;mercado_envios&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;28.15&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;4577.53&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;}]&quot;' data-total-rows='15' data-total-columns='9' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_despacho&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;origen&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;destino&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;transportista&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;peso_kg&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;costo_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;dias_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "b812f2374fd66b9e9c3f23e6c0543c67",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Svte-0' random-id='a70e5193-a4f2-6ab7-528e-c082e1a11c8b'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;id_envio&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;fecha_despacho&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;fecha_entrega&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;origen&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;destino&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;transportista&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;peso_kg&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;costo_envio&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;dias_entrega&#92;&quot;,&#92;&quot;value&#92;&quot;:153}]&quot;' data-total-rows='9' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "7214c801421ecab0e126d0e889a8eda0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='pMSx-0' random-id='e9c7aa49-5d09-6916-dd7f-8ad378cd7892'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;transportista&#92;&quot;:&#92;&quot;andreani&#92;&quot;,&#92;&quot;count&#92;&quot;:619},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;mercado_envios&#92;&quot;,&#92;&quot;count&#92;&quot;:614},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;correo_argentino&#92;&quot;,&#92;&quot;count&#92;&quot;:572},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;oca&#92;&quot;,&#92;&quot;count&#92;&quot;:563},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;MERCADO_ENVIOS &#92;&quot;,&#92;&quot;count&#92;&quot;:25},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;ANDREANI &#92;&quot;,&#92;&quot;count&#92;&quot;:21},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;CORREO_ARGENTINO&#92;&quot;,&#92;&quot;count&#92;&quot;:21},{&#92;&quot;transportista&#92;&quot;:&#92;&quot; MERCADO_ENVIOS&#92;&quot;,&#92;&quot;count&#92;&quot;:19},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;ANDREANI&#92;&quot;,&#92;&quot;count&#92;&quot;:19},{&#92;&quot;transportista&#92;&quot;:&#92;&quot;OCA&#92;&quot;,&#92;&quot;count&#92;&quot;:19}]&quot;' data-total-rows='16' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;transportista&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "3a78d24425f9b4cc0cde88d1eb4c068e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='GjEw-0' random-id='3123e37a-d70d-261a-54ad-49b5aee33a32'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;origen&#92;&quot;:&#92;&quot;Mendoza&#92;&quot;,&#92;&quot;count&#92;&quot;:398},{&#92;&quot;origen&#92;&quot;:&#92;&quot;Cordoba&#92;&quot;,&#92;&quot;count&#92;&quot;:384},{&#92;&quot;origen&#92;&quot;:&#92;&quot;Salta&#92;&quot;,&#92;&quot;count&#92;&quot;:381},{&#92;&quot;origen&#92;&quot;:&#92;&quot;Buenos Aires&#92;&quot;,&#92;&quot;count&#92;&quot;:371},{&#92;&quot;origen&#92;&quot;:&#92;&quot;Bahia Blanca&#92;&quot;,&#92;&quot;count&#92;&quot;:350},{&#92;&quot;origen&#92;&quot;:&#92;&quot;Tucuman&#92;&quot;,&#92;&quot;count&#92;&quot;:347},{&#92;&quot;origen&#92;&quot;:&#92;&quot;Rosario&#92;&quot;,&#92;&quot;count&#92;&quot;:344}]&quot;' data-total-rows='7' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;origen&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "b20574c292168a712fb8ab210ce34bd3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='QJax-0' random-id='426c0e4c-7602-24cd-c00d-479e3f5464be'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;destino&#92;&quot;:&#92;&quot;Bahia Blanca&#92;&quot;,&#92;&quot;count&#92;&quot;:394},{&#92;&quot;destino&#92;&quot;:&#92;&quot;Rosario&#92;&quot;,&#92;&quot;count&#92;&quot;:388},{&#92;&quot;destino&#92;&quot;:&#92;&quot;Mendoza&#92;&quot;,&#92;&quot;count&#92;&quot;:375},{&#92;&quot;destino&#92;&quot;:&#92;&quot;Buenos Aires&#92;&quot;,&#92;&quot;count&#92;&quot;:362},{&#92;&quot;destino&#92;&quot;:&#92;&quot;Tucuman&#92;&quot;,&#92;&quot;count&#92;&quot;:361},{&#92;&quot;destino&#92;&quot;:&#92;&quot;Cordoba&#92;&quot;,&#92;&quot;count&#92;&quot;:359},{&#92;&quot;destino&#92;&quot;:&#92;&quot;Salta&#92;&quot;,&#92;&quot;count&#92;&quot;:336}]&quot;' data-total-rows='7' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;destino&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "169578eb37ee646b744b6ec7be0cb7a9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MOab-0' random-id='f3491fe3-346a-437f-0fdf-eac7ff3268b4'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E001782&#92;&quot;,&#92;&quot;veces&#92;&quot;:4},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000274&#92;&quot;,&#92;&quot;veces&#92;&quot;:3},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000383&#92;&quot;,&#92;&quot;veces&#92;&quot;:3},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E002025&#92;&quot;,&#92;&quot;veces&#92;&quot;:2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E001690&#92;&quot;,&#92;&quot;veces&#92;&quot;:2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E002308&#92;&quot;,&#92;&quot;veces&#92;&quot;:2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000146&#92;&quot;,&#92;&quot;veces&#92;&quot;:2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E001724&#92;&quot;,&#92;&quot;veces&#92;&quot;:2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000758&#92;&quot;,&#92;&quot;veces&#92;&quot;:2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000783&#92;&quot;,&#92;&quot;veces&#92;&quot;:2}]&quot;' data-total-rows='71' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;veces&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "30491ec64627c92b59023a78531a8d4b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MQjq-0' random-id='82109220-e035-a11d-b76e-f84b072c55e1'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:2,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000003&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;21/02/2024&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-02-29&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:7,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000007&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;25/07/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-08-01&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:12,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000012&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-01-12&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;20/01/2025&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:25,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000025&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-07-01&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;07/07/2025&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:26,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000026&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;29/08/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-08-30&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:29,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000029&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-12-04&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;10/12/2024&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:45,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000045&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;30/05/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-06-04&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:48,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000048&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-09-10&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;14/09/2025&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:53,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000053&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;12/02/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-02-19&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:56,&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000056&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;15/12/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-12-19&#92;&quot;}]&quot;' data-total-rows='411' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_despacho&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "cf78ea70770bc964d8ad91107d71426f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='htYW-0' random-id='7f0d1e1c-caa9-557f-a0d2-348ff1bf5abb'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000003&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;21/02/2024&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-02-29&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000007&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;25/07/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-08-01&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000012&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-01-12&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;20/01/2025&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000025&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-07-01&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;07/07/2025&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000026&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;29/08/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-08-30&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000029&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-12-04&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;10/12/2024&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000045&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;30/05/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-06-04&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000048&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-09-10&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;14/09/2025&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000053&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;12/02/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-02-19&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000056&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;15/12/2025&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-12-19&#92;&quot;}]&quot;' data-total-rows='411' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_despacho&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "06f06ee65e6899281705ccd80b732ebd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='RZYh-0' random-id='a331c302-b4db-bb83-bb2e-3165f90f9ef4'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000017&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-11-29&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-11-22&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000054&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-06-22&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-06-19&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;3&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000066&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-06-04&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-06-02&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;2&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000072&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-05-19&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-05-17&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;2&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000073&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-01-22&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-01-21&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;1&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000126&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-01-27&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-01-18&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;9&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000128&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-10-20&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-10-15&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;5&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000177&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-09-07&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-08-31&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000181&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-02-01&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-01-25&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000216&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2026-01-02&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-12-24&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;9&#92;&quot;}]&quot;' data-total-rows='103' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_despacho&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;dias_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "d10f782de80872b3c86ac5d567f550ce",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='UHLy-0' random-id='22559461-af2d-6fcd-9dc1-9ed15dce6486'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000008&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;-34.12&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;51041.74&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;4&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000014&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;20.91&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;21653.69&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:NaN},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000015&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;17.39&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;24.624,00&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;2&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000022&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;36.42&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;3.397,16&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000027&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;-13.21&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;3043.05&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;9&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000030&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;-13.47&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;57816.24&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000031&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;22.73&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;11.745,64&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;8&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000039&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;-24.62&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;23174.65&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;6&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000042&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;2.17&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;58.834,06&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;8&#92;&quot;},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000044&#92;&quot;,&#92;&quot;peso_kg&#92;&quot;:&#92;&quot;-34.26&#92;&quot;,&#92;&quot;costo_envio&#92;&quot;:&#92;&quot;33884.7&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;6&#92;&quot;}]&quot;' data-total-rows='382' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;peso_kg&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;costo_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;dias_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "871a94d783d6ca1d5fc39d3a097a3f46",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='eraF-0' random-id='f08204ce-bb68-db5d-7e9b-e26a4aa465df'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000017&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-11-29&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-11-22&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-7},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000054&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-06-22&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-06-19&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;3&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-3},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000066&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-06-04&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-06-02&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;2&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000072&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-05-19&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-05-17&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;2&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-2},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000073&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-01-22&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-01-21&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;1&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-1},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000126&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2025-01-27&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-01-18&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;9&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-9},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000128&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-10-20&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-10-15&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;5&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-5},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000177&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-09-07&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-08-31&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-7},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000181&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2024-02-01&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2024-01-25&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;7&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-7},{&#92;&quot;id_envio&#92;&quot;:&#92;&quot;E000216&#92;&quot;,&#92;&quot;fecha_despacho&#92;&quot;:&#92;&quot;2026-01-02&#92;&quot;,&#92;&quot;fecha_entrega&#92;&quot;:&#92;&quot;2025-12-24&#92;&quot;,&#92;&quot;dias_entrega&#92;&quot;:&#92;&quot;9&#92;&quot;,&#92;&quot;dias_calculados&#92;&quot;:-9}]&quot;' data-total-rows='103' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id_envio&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_despacho&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fecha_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;dias_entrega&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;dias_calculados&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "85af733181869d11f68ca8ed3a38a815",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='aDsf-0' random-id='31acf26c-3382-c0c7-a09e-d28de79827be'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;peso_min&#92;&quot;:-39.43,&#92;&quot;peso_max&#92;&quot;:39.95,&#92;&quot;costo_min&#92;&quot;:2507.09,&#92;&quot;costo_max&#92;&quot;:59913.75,&#92;&quot;dias_min&#92;&quot;:1,&#92;&quot;dias_max&#92;&quot;:9}]&quot;' data-total-rows='1' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;peso_min&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;peso_max&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;costo_min&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;costo_max&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;dias_min&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;dias_max&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
